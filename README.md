@@ -45,9 +45,9 @@ command -v dtags > /dev/null 2>&1; and dtags shell fish | source
 
 **Step 4**. Restart your shell.
 
-Note for those are already using v1.x.x:
-   * dtags v2 has config changes that are *not* backwards-compatible.
-   * If you want to upgrade from v1, you need to run a migration script:
+Important note for those who are already using v1.x.x:
+   * dtags v2.0.0 has config changes that are *not* backwards-compatible.
+   * If you want to upgrade from v1.x.x, you need to run a migration script:
       
       ```bash
        ~$ git clone https://github.com/joowani/dtags.git
